@@ -18,6 +18,7 @@ Before installing Kalin's AI Assistant, ensure you have the following:
 
 - Python 3.8+
 - pip (Python package installer)
+- Environment variable "OPENAI_API_KEY" set with the value of your OpenAI API key
 
 ### Installation
 
@@ -46,11 +47,16 @@ This command will launch the user interface where you can navigate between diffe
 ### Chat Bot
 Navigate to the Chat Bot page in the user interface and type your query. The AI will respond interactively.
 
+![Chat Bot](resources/screenshots/chatbot.png)
+
 ### Image Creation
 On the Image Creation page, submit your text description, and the AI will generate an image based on your input.
+![Image Creation](resources/screenshots/image_creation.png)
 
 ### Voice Creation
 Input your text on the Voice Creation page, select the desired voice profile, and generate your audio file.
+![Voice Creation](resources/screenshots/voice_creation.png)
 
 ### Voice Translation
 Upload an audio file on the Voice Translation page, choose the languages for transcription and translation, and receive text outputs.
+![Voice Translation](resources/screenshots/voice_translation.png)
